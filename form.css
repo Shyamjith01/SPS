@@ -1,0 +1,84 @@
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+.form{
+    background: white;
+}
+#section-form{
+    background-color: #f6f6f6;
+    -moz-box-shadow: 3px 3px 3px #ccc;
+    -webkit-box-shadow: 3px 3px 3px #ccc;
+    box-shadow: 3px 3px 28px #ccc;
+    margin-bottom: 1.5rem;
+
+}
+.sps{
+    font-size: 2rem;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 500;
+    background-color: white;
+}
+#id1{
+    border: none;
+    color: #8c8c8c;
+    font-size: 1.1rem;
+    margin-left: -0.9rem;
+}
+#section-form{
+    width: 100%;
+    margin-left: 0rem;
+    background-color: white;
+}
+.registration{
+    font-weight: 7#22d1b500;
+}
+#id{
+    border: none;
+    color: #767676;
+    font-size: 1.1rem;
+  }
+input{
+    border: none;
+    
+    width: -moz-available;
+}
+.gender-select{
+   border-style: none;
+
+}
+#form-select{
+    border: none;
+
+   
+}
+.btn{
+    width: -webkit-fill-available;
+    background: #22d1b5;
+    border: none;
+    height: 3.5rem;
+    
+}
+.in-side-btn{
+    color: white;
+    font-family: "Muli-SemiBold";
+}
+
+
+.input-group-text{
+    background: none;
+    border: none;
+}
+.error{
+    color: red;
+   
+}
+.copy-right{
+    color: gray;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.7;
+}
