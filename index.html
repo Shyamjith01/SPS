@@ -19,17 +19,22 @@
     
 </head>
 <body>
-    <header>
+    <header id="header" >
         <div class="col-md-12 text-center mt-3" style="width: 100%;">
             <h1 class="sps">SPS <span class="" style="color: #00d2b5  ;">.</span></h1> 
-
         </div> 
     </header>
     <div class="container">
         <div class="row">
             <div class="yon col-lg-7 mt-5">
-                <img src="whats_sps.png" alt="" class="spsimg" style="width: 100%;cursor: pointer;">
-                <iframe src="https://www.youtube.com/watch?v=I9QGnNvrmoY" frameborder="0" class="hidden spsvideo" ></iframe>
+                <div id="video" onclick="this.nextElementSibling.style.display='block'; this.style.display='none';">
+                  <img src="whats_sps.png" alt="" class="spsimg" style="width: 100%;cursor: pointer;">
+                </div>
+                <div style="display: none;">
+                <div class="embed-responsive embed-responsive-16by9 mt-5 mb-5">
+                  <iframe width="1366" height="768" src="https://www.youtube.com/embed/I9QGnNvrmoY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              </div>
             </div>
             <div class="col-lg-5 mt-5  col-lg-5 mt-5  pt-5">
                 <h2 class="h2">No Tuition Fee <br> Upfront,<br>
@@ -88,7 +93,7 @@
                     <h6 class="card-subtitle mb-2">No one size fit all classes</h6>
                     <p class="card-text">Freely explore the different areas of programming. Find what you’re passionate about. And get after it.</p>
                     
-                  </div>
+                  </div>  
                    
                </div>
            </div>
@@ -97,9 +102,16 @@
    <div class="sps-brief">
        <div class="container">
            <div class="row" style="border-bottom: solid 1px; border-color: #dee2e6;">
-               <div class="col-lg-7" style="width: 100%;">
+              <div onclick="this.nextElementSibling.style.display='block'; this.style.display='none';" class="col-lg-7">
+               <div class="col-lg-7" style="width: 100%;" onclick="this.nextElementSibling.style.display='block'; this.style.display='none';" >
                    <img src="Howspsworks.png" alt="" class="col-lg-7" style="width: 100%;">
                </div>
+              </div>
+              <div style="display: none;" class="col-7">
+                <div class="embed-responsive embed-responsive-16by9 mt-5 mb-5 col-lg-7">
+                  <iframe width="635" height="357" src="https://www.youtube.com/embed/ckub1RSlhic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
+                </div>
+              </div>
                <div class="col-lg-5 md-5 mt-5">
                    <h2 class="h2">SPS in Brief?</h2>
                    <p>School of Practical Studies (SPS) helps the young Indian generation who had benefited nothing from  our country’s poor education system by providing an intensive industry relevant training on the  leading software technologies. </p>
@@ -262,9 +274,14 @@
          <div class="col-12 mt-5 pb-2" style="border-bottom: solid 1px; border-color: #dee2e6;">
            <h2 class="h2">Want to join SPS? </h2>
          </div>
-         <div class="col-12">
+         <div class="col-12" onclick="this.nextElementSibling.style.display='block'; this.style.display='none';">
            <img src="whocanjoinsps.png" alt="" style="width: 100%;">
          </div>
+         <div style="display: none;" class="col-12">
+          <div class="embed-responsive embed-responsive-16by9 mt-5 mb-5 col-12">
+            <iframe width="1080" height="608" src="https://www.youtube.com/embed/xkmM6h32lnM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
          <p>3 Step process to join the SPS</p>
          <div class="row align-items-center justify-content-end how-it-works d-flex">
           <div class="col-6 text-right">
@@ -333,11 +350,16 @@
         <p>If you failed to qualify the interview, then prepare well, schedule it again and repeat the process until you win.</p>
        </div>
        <div class="row">
-         <div class="col-12">
-           <img src="howmuchdoesitcost.png" alt="" style="width: 100%;">
+         <div class="col-12" onclick="this.nextElementSibling.style.display='block'; this.style.display='none';">
+          <img src="howmuchdoesitcost.png" alt="" style="width: 100%;">
+        </div>
+        <div style="display: none;" class="col-12">
+          <div class="embed-responsive embed-responsive-16by9 mt-5 mb-5 col-12">
+            <iframe width="1080" height="608" src="https://www.youtube.com/embed/vhG3wKGp2mc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
          </div>
        </div>
-
      </div> 
    </div>
    <div class="site-section">
@@ -345,9 +367,17 @@
        <div class="row " style="width: 17rem;border-bottom: solid 1px;border-color: #dee2e6;">
          <h2 class="h2">Convocation</h2>
        </div>
-       <div class="row">
-         <img src="ConvocationCeremony.png" alt="" style="width: 100%;">
+       <div class="col-12 col-md-12 col-sm-12">
+         <div  class="col-12" onclick="this.nextElementSibling.style.display='block'; this.style.display='none';">
+          <img src="ConvocationCeremony.png" alt="" style="width: 100%;">
+         </div>
        </div>
+       <div style="display: none;" class="col-12 col-sm-12">
+        <div class="embed-responsive embed-responsive-16by9 mt-5 mb-5 col-lg-12">
+          <iframe width="1080" height="608" src="https://www.youtube.com/embed/m_hx0Ebg5Yo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      </div>  
      </div>
 
    </div>
@@ -553,7 +583,32 @@
        </div>
      </div>
    </div>
+  
+    <a href="#header">
+      <button onclick="topFunction()" id="myBtn" title="Go to top" > <i class="material-icons" href="#header">
+        expand_less
+        </i> 
+       </button> 
+    </a>
+  
 
+
+<script>
+  // Get the button
+  var mybutton = document.getElementById("myBtn");
+  
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  </script>
 
 
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
